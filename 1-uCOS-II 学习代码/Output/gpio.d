@@ -1,0 +1,10 @@
+..\output\gpio.o: ..\BSP\gpio.c
+..\output\gpio.o: ..\BSP\gpio.h
+..\output\gpio.o: ..\CMSIS\stm32f10x.h
+..\output\gpio.o: ..\CMSIS\core_cm3.h
+..\output\gpio.o: G:\0-Embeded\KEIL\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\output\gpio.o: ..\CMSIS\system_stm32f10x.h
+..\output\gpio.o: ..\USER\stm32f10x_conf.h
+..\output\gpio.o: ..\FWlib\inc\stm32f10x_gpio.h
+..\output\gpio.o: ..\CMSIS\stm32f10x.h
+..\output\gpio.o: ..\FWlib\inc\stm32f10x_rcc.h

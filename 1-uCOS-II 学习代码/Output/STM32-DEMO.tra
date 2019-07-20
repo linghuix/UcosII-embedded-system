@@ -1,0 +1,40 @@
+*** Creating Trace Output File '..\Output\STM32-DEMO.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"..\output\startup_stm32f10x_hd.o"'
+### List of Objects: adding '"..\output\main.o"'
+### List of Objects: adding '"..\output\stm32f10x_it.o"'
+### List of Objects: adding '"..\output\stm32f10x_gpio.o"'
+### List of Objects: adding '"..\output\stm32f10x_rcc.o"'
+### List of Objects: adding '"..\output\core_cm3.o"'
+### List of Objects: adding '"..\output\system_stm32f10x.o"'
+### List of Objects: adding '"..\output\bsp.o"'
+### List of Objects: adding '"..\output\led.o"'
+### List of Objects: adding '"..\output\app.o"'
+### List of Objects: adding '"..\output\os_core.o"'
+### List of Objects: adding '"..\output\os_flag.o"'
+### List of Objects: adding '"..\output\os_mbox.o"'
+### List of Objects: adding '"..\output\os_mem.o"'
+### List of Objects: adding '"..\output\os_mutex.o"'
+### List of Objects: adding '"..\output\os_q.o"'
+### List of Objects: adding '"..\output\os_sem.o"'
+### List of Objects: adding '"..\output\os_task.o"'
+### List of Objects: adding '"..\output\os_time.o"'
+### List of Objects: adding '"..\output\os_tmr.o"'
+### List of Objects: adding '"..\output\os_cpu_a.o"'
+### List of Objects: adding '"..\output\os_cpu_c.o"'
+### List of Objects: adding '"..\output\os_dbg.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "..\output\startup_stm32f10x_hd.o" "..\output\main.o" "..\output\stm32f10x_it.o" "..\output\stm32f10x_gpio.o" "..\output\stm32f10x_rcc.o" "..\output\core_cm3.o" "..\output\system_stm32f10x.o" "..\output\bsp.o" "..\output\led.o" "..\output\app.o" "..\output\os_core.o" "..\output\os_flag.o" "..\output\os_mbox.o" "..\output\os_mem.o" "..\output\os_mutex.o" "..\output\os_q.o" "..\output\os_sem.o" "..\output\os_task.o" "..\output\os_time.o" "..\output\os_tmr.o" "..\output\os_cpu_a.o" "..\output\os_cpu_c.o" "..\output\os_dbg.o" --library_type=microlib --ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "..\Listing\STM32-DEMO.map" -o "..\Output\STM32-DEMO.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '..\Output\STM32-DEMO.axf'
+### ADS-LD Command File: '..\Output\STM32-DEMO.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '..\Output\STM32-DEMO.lnp', Handle=0x0000042C
+### Writing '.lnp' file
+### ADS-LD Command file '..\Output\STM32-DEMO.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
