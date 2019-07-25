@@ -1,1 +1,15 @@
-*.pdf
+代码内部的缩写
+
+Ctr - counter
+Ctx - context
+Rdy - Ready
+tbl - table 列表，数组
+TCB - Task Control Block
+Ptr - Pointer
+Stk - stack
+Ext - extension
+Opt - option
+Msg - Message
+Cur - Current
+p? 或 ?p - 代表指针
+
