@@ -572,13 +572,14 @@ ARM Macro Assembler    Page 9
               00000000 
               00000000 
               00000000 
-Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
-ork --depend=..\output\startup_stm32f10x_hd.d -o..\output\startup_stm32f10x_hd.
-o -I.\RTE\_LED-DEMO -IG:\0-Embeded\KEIL\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\
-Include -IG:\0-Embeded\KEIL\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\In
-clude --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 525" 
---predefine="_RTE_ SETA 1" --predefine="STM32F10X_HD SETA 1" --list=..\listing\
-startup_stm32f10x_hd.lst ..\CMSIS\startup\startup_stm32f10x_hd.s
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
+erwork --depend=..\output\startup_stm32f10x_hd.d -o..\output\startup_stm32f10x_
+hd.o -I.\RTE\_LED-DEMO -IG:\0-Embeded\KEIL\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMS
+IS\Include -IG:\0-Embeded\KEIL\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drive
+rs\CMSIS\Device\ST\STM32F4xx\Include --predefine="__MICROLIB SETA 1" --predefin
+e="__UVISION_VERSION SETA 525" --predefine="_RTE_ SETA 1" --predefine="STM32F40
+7xx SETA 1" --list=..\listing\startup_stm32f10x_hd.lst ..\CMSIS\startup\startup
+_stm32f10x_hd.s
 
 
 
@@ -1465,4 +1466,4 @@ Symbol: __main
       At line 165 in file ..\CMSIS\startup\startup_stm32f10x_hd.s
 Comment: __main used once
 1 symbol
-424 symbols in table
+425 symbols in table

@@ -1,4 +1,4 @@
---cpu Cortex-M3
+--cpu=Cortex-M4.fp
 "..\output\startup_stm32f10x_hd.o"
 "..\output\main.o"
 "..\output\stm32f10x_it.o"
